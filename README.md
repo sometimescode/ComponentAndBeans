@@ -1,6 +1,8 @@
 # ComponentAndBeans
-Testing Component and Beans of Struts2. Not sure if this is proper implementation. Still confused on key difference in this scenario between beans, component, and include because it looks like include also has access to the parent's value stack. Beans can be set to return a jsp file so it looks just like a component. Component relies on beans to get the rest of the information. Maybe you can push the beans outside of component and pass it as variable or configure it so that parent holds the variables needed by component, but 
+Testing Component and Beans of Struts2. Not sure if this is proper implementation. 
 
+Component: https://struts.apache.org/tag-developers/component-tag
+Bean: https://struts.apache.org/tag-developers/bean-tag
 Only important page is http://localhost:8080/.
 HelloWorld.jsp contains the call to component.
 <s:component template="comp.jsp">
