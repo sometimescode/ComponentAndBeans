@@ -8,9 +8,6 @@
 <body>
 <h2><s:property value="message"/></h2>
 
-<s:bean name="com.example.example.TestAct">
-  </s:bean>
-
 <s:component template="comp.jsp">
     <s:param name="key1" value="0"/>
 </s:component>
